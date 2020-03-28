@@ -8,5 +8,6 @@ feature "Blogger adds an article" do
         expect(page).to have_content("New Article")
         expect(page).to have_field("Title")
         expect(page).to have_field("Text")
+        
     end 
 end
